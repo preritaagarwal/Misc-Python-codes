@@ -21,17 +21,9 @@ import time
 
 #aws link - https://openaq-fetches.s3.amazonaws.com/index.html  
 
-
 #https://patel-zeel.github.io/blog/data/openaq/2020/09/21/Programatically_download_OpenAQ_data.html 
 
 # http://dhhagan.github.io/py-openaq/tutorial/api.html
-
-
-# In[ ]:
-
-
-
-
 
 # In[13]:
 
@@ -64,8 +56,6 @@ for date in pd.date_range(start=start_date, end=end_date):
         s3.download_file(bucket_name, f_name, path+f_name)
     
 
-
-# In[ ]:
 
 
 

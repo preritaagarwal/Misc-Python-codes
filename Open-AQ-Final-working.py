@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# script to download open-aq data 
 
 
 #login node trial 
@@ -24,8 +24,6 @@ import time
 #https://patel-zeel.github.io/blog/data/openaq/2020/09/21/Programatically_download_OpenAQ_data.html 
 
 # http://dhhagan.github.io/py-openaq/tutorial/api.html
-
-# In[13]:
 
 
 s3 = boto3.client('s3', config=botocore.config.Config(signature_version=botocore.UNSIGNED))
